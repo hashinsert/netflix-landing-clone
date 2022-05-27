@@ -1,0 +1,76 @@
+h1,
+p {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: green;
+}
+
+img {
+    width: 100px;
+}
+
+section {
+    background-color: lightgray;
+}
+
+.hero {
+    background-color: lightpink;
+}
+
+.feature {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq {
+    background-color: lightblue;
+}
+
+input {
+    font-size: large;
+    border-color: red;
+}
+
+#emailaddress {
+    border-color: green;
+}
+
+#pwd {
+    border-color: blue;
+}
+
+/* select - parent */
+/* option - child */
+select option {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* a tags inside li */
+li a {
+    color: green;
+    text-decoration: none;
+}
+
+p a {
+    color: red;
+}
+
+p+ul {
+    font-size: xx-large;
+}
+
+input[type="radio"] {
+    width: 100px;
+    height: 100px;
+}
+
+input[type="email"] {
+    font-size: x-large;
+}
