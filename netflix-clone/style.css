@@ -11,22 +11,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-/* #netpic {
-    margin-top: 50px;
-} */
-
-/* .signin {
-    position: absolute;
-    right: 10px;
-} */
-
-#netlogo {
-    position: absolute;
-    left: 30px;
-}
-
 p {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -35,7 +19,11 @@ p {
 /* Styling for header section */
 header {
     width: 100%;
-    height: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
 header>img {
@@ -47,6 +35,7 @@ header a {
     text-decoration: none;
     padding: 5px;
     color: white;
+    border-radius: 5px;
 }
 
 /* Styling for hero section */
@@ -61,7 +50,7 @@ header a {
 }
 
 .hero h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .hero h3 {
@@ -86,17 +75,31 @@ header a {
 /* Styling for Feature sections */
 .feature {
     padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .feature img {
-    width: 300px;
+    width: 500px;
+
 }
 
+/* Media query for section responsiveness */
+@media screen and (min-width: 950px) {
 
+    .content,
+    .image {
+        width: 50%;
+    }
+}
+
+/* horizontal rule styling */
 hr {
     height: 6px;
     background: #303030;
