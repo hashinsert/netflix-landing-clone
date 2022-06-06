@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: orange;
+    /* /* height: 150px; */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid black;
+    width: 900px;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+}
+
+.login {
+    margin-left: 20px;
+}
