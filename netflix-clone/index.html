@@ -8,6 +8,7 @@
     <meta author="hashinsert">
     <title>Netflix India</title>
     <link rel="icon" href="img/logo.png" type="image">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -129,15 +130,22 @@
     <hr>
 
     <!-- FAQ -->
-    <section>
-        <h1>Frequently Asked Questions</h1>
-        <div>
-            <button> What can I watch on Netflix? </button>
-            <div>
-                <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
-                    Netflix
-                    originals, and more. Watch as much as you want, anytime you want.</p>
-            </div>
+    <section class="mx-8 px-12">
+        <h1 class="text-white text-4xl">Frequently Asked Questions</h1>
+        <div class="overflow-hidden border shadow-md w-full mx-auto mt-4 text-xl">
+            <label>
+                <input class="absolute opacity-0 peer" type="checkbox" />
+                <p class="p-5 bg-gray-700">
+                    What can I watch on Netflix?
+                </p>
+                <div class="bg-gray-700 max-h-0 peer-checked:max-h-screen">
+                    <p class="p-4 text">Netflix has an extensive library of feature films, documentaries, TV shows,
+                        anime,
+                        award-winning
+                        Netflix
+                        originals, and more. Watch as much as you want, anytime you want.</p>
+                </div>
+            </label>
         </div>
         <div>
             <button> How much does Netflix cost? </button>
